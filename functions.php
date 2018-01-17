@@ -9,7 +9,7 @@ function danzerpress_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
-    wp_enqueue_script( $parent_style, get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'danzerpress_enqueue_styles' );
 

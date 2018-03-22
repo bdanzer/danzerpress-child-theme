@@ -9,20 +9,21 @@
 	}
 </style>
 
-<div class="danzerpress-section parallax-window" data-parallax="scroll" data-image-src="https://danzerpress.com/wp-content/uploads/2018/01/ilya-pavlov-87438.jpg" id="" style="background: transparent; height: calc(100vh); padding: 0px; margin-top: -64px;">
-	<div class="danzerpress-flex-row" style="height: 100%;">
-		<div class="danzerpress-col-2-fix parallax-window" data-parallax="scroll" data-image-src="https://unsplash.it/1920/1080/?random" style="display: flex; flex-direction: column; justify-content: center; min-height: 300px;">
-			
-		</div>
-
-		<div class="danzerpress-col-2-fix" style="display: flex; flex-direction: column; justify-content: center;background: #15151596;border-left: 2px solid black;">
-			<div class="danzerpress-content danzerpress-align-center" style="width: 70%; margin: auto;">
-				<h2 class="danzerpress-title danzerpress-color-white" style="margin-bottom: 20px; text-align: left;">WordPress Developer</h2>
-				<p class="danzerpress-color-white" style="text-align: left;">My skills in Front-end Languages include: HTML, CSS, CSS3, Responsive Design, JavaScript, jQuery. My Back-end Languages include: PHP, MySQL, and PHPmyAdmin.</p>
-				<p style="text-align: left;"><a href="" class="danzerpress-button-modern danzerpress-button-left">Contact Me</a><a href="" class="danzerpress-button-modern danzerpress-button-off">Portfolio</a></p>
-			</div>
-		</div>
-	</div>
+<div class="danzerpress-section" id="section-1" style="margin-top: -60px;position: relative; position: relative; height: calc(100vh);">
+	<div class="video-background">
+	    <div class="video-foreground">
+	      <iframe src="https://player.twitch.tv/?channel=gamesdonequick" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+	    </div>
+	    <div class="video-text">
+	    	<div class="danzerpress-flex-row">
+	    		<div class="danzerpress-two-thirds danzerpress-col-center danzerpress-align-self" style="margin:0px;">
+					<h2 class="danzerpress-title" style="margin-bottom: 20px; color: white !important;">What others think</h2>
+					<p style="text-align: center; font-size: 21px;margin-bottom: 40px;line-height: 36px;color: white !important;">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Nulla vitae magna sed</p>
+					<p style="text-align: center;"><a href="" class="danzerpress-button-modern">Call to action</a></p>
+				</div>
+	    	</div>
+	    </div>
+  	</div>
 </div>
 
 <div class="danzerpress-section" id="" style="background: #242a30; padding: 40px 0;">
@@ -39,39 +40,6 @@
 					</div>
 				</div>
 
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="danzerpress-section portfolio-section" id="">
-	<div class="danzerpress-wrap">
-		<h2 class="danzerpress-title" style="margin-bottom: 40px;">Sites Worked On</h2>
-		<div class="danzerpress-flex-row">
-			<div class="danzerpress-two-thirds danzerpress-col-center">
-				<div class="danzerpress-flex-row">
-					<div class="danzerpress-col-3 danzerpress-md-2 danzerpress-tilt" data-tilt">
-						<div class="danzerpress-image-wrap">
-							<a href="">
-								<img src="https://danzerpress.com/wp-content/uploads/2016/12/xFestIntlLogo500x500.png.pagespeed.ic.v-ssaomuJy.webp">
-							</a>
-						</div>
-					</div>
-					<div class="danzerpress-col-3 danzerpress-md-2 danzerpress-tilt" data-tilt>
-						<div class="danzerpress-image-wrap">
-							<a href="">
-								<img src="https://danzerpress.com/wp-content/uploads/2016/12/xhive300x300-1.png.pagespeed.ic.fopYAXcxXr.webp">
-							</a>
-						</div>
-					</div>
-					<div class="danzerpress-col-3 danzerpress-md-2 danzerpress-tilt" data-tilt>
-						<div class="danzerpress-image-wrap">
-							<a href="">
-								<img src="https://danzerpress.com/wp-content/uploads/2016/12/xsharpescout300x300.png.pagespeed.ic.01IezkbszF.webp">
-							</a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -120,54 +88,182 @@
   .video-foreground { width: 300%; left: -100%; }
 }
 </style>
-<div class="danzerpress-section" id="" style="position: relative; position: relative; height: calc(100vh - 60px);">
-	<div class="video-background">
-	    <div class="video-foreground">
-	      <iframe src="https://player.twitch.tv/?channel=gamesdonequick" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
-	    </div>
-	    <div class="video-text">
-	    	<div class="danzerpress-flex-row">
-	    		<div class="danzerpress-two-thirds danzerpress-col-center danzerpress-align-center" style="margin:0px;">
-					<h2 class="danzerpress-title" style="margin-bottom: 20px; color: white !important;">What others think</h2>
-					<p style="text-align: center; font-size: 21px;margin-bottom: 40px;line-height: 36px;color: white !important;">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Nulla vitae magna sed</p>
-					<p style="text-align: center;"><a href="" class="danzerpress-button-modern">Call to action</a></p>
-				</div>
-	    	</div>
-	    </div>
-  	</div>
-</div>
 
-<div class="danzerpress-section danzerpress-odd" id="" style="">
+
+<div class="danzerpress-section" id="" style="">
 	<div class="danzerpress-wrap">
-		<h2 class="danzerpress-title" style="margin-bottom: 40px;">Tabs</h2>
+		<h2 class="danzerpress-title" style="margin-bottom: 15px;">Fancybox Testing</h2>
 		<div class="danzerpress-flex-row">
 			<div class="danzerpress-two-thirds danzerpress-col-center" style="">
 
-				<div id="tabs">
-					<ul class="danzerpress-flex-row">
-						<li><a href="#tabs-1" title="">Tab 1</a></li>
-						<li><a href="#tabs-2" title="">Tab 2</a></li>
-						<li><a href="#tabs-3" title="">Tab 3</a></li>
-					</ul>
+				<p style="text-align: center;">
+					Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.
+				</p>
 
-					<div id="tabs_container">
+				<p style="text-align: center;">
+					<a class="danzerpress-button-modern danzerpress-button-left" data-fancybox="" data-type="iframe" data-src="https://danzerpress.com" href="javascript:;">
+						Webpage
+					</a>
 
-						<div id="tabs-1">
-							    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus.</p><p>Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+					<a class="danzerpress-button-modern danzerpress-button-off" data-fancybox="" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+					  YouTube video
+					</a>
+				</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="danzerpress-section danzerpress-odd" id="" style="">
+	<div class="danzerpress-wrap">
+		<div class="danzerpress-icon-img wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+			<img src="http://localhost:8888/danzerpress-live-environment/wp-content/uploads/2017/11/danzerpressofficial2-e1515976172986.png">
+		</div>
+		<h2 class="danzerpress-title" style="margin-bottom: 40px;">Slick Slider</h2>
+		<div class="danzerpress-flex-row">
+			<div class="danzerpress-two-thirds danzerpress-col-center" style="">
+
+				<div class="slider">
+				  <div class="danzerpress-col-3">
+				  	<div class="danzerpress-box danzerpress-white danzerpress-shadow-3">
+				  		<h4>Hello</h4>
+				  		<p>your content</p>
+				  	</div>
+				  </div>
+				  <div class="danzerpress-col-3">
+				  	<div class="danzerpress-box danzerpress-white danzerpress-shadow-3">
+				  		<h4>Hello</h4>
+				  		<p>your content</p>
+				  	</div>
+				  </div>
+				  <div class="danzerpress-col-3">
+				  	<div class="danzerpress-box danzerpress-white danzerpress-shadow-3">
+				  		<h4>Hello</h4>
+				  		<p>your content</p>
+				  	</div>
+				  </div>
+				  <div class="danzerpress-col-3">
+				  	<div class="danzerpress-box danzerpress-white danzerpress-shadow-3">
+				  		<h4>Hello</h4>
+				  		<p>your content</p>
+				  	</div>
+				  </div>
+				  <div class="danzerpress-col-3">
+				  	<div class="danzerpress-box danzerpress-white danzerpress-shadow-3">
+				  		<h4>Hello</h4>
+				  		<p>your content</p>
+				  	</div>
+				  </div>
+				  <div class="danzerpress-col-3">
+				  	<div class="danzerpress-box danzerpress-white danzerpress-shadow-3">
+				  		<h4>Hello</h4>
+				  		<p>your content</p>
+				  	</div>
+				  </div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="danzerpress-section recent_post_section" id="" style="">
+	<div class="danzerpress-wrap">
+
+		<div class="danzerpress-four-fifths danzerpress-col-center">
+			<h2 class="danzerpress-title" style="margin-bottom: 40px;">Half Rectangles</h2>
+			<div class="danzerpress-flex-row danzerpress-row-fix">
+
+				<div class="danzerpress-col-2 danzerpress-sm-2 danzerpress-xs-1 danzerpress-flex-row">
+					<div class="danzerpress-col-2 danzerpress-md-1 danzerpress-sm-1 danzerpress-fix danzerpress-lineheight-fix">
+						<img style="height: 100%;width: 100%;object-fit: cover;" src="https://unsplash.it/1920/1080/?random">
+					</div>
+					<div class="danzerpress-col-2 danzerpress-md-1 danzerpress-sm-1 danzerpress-flex-column danzerpress-fix">
+						<div class="danzerpress-box danzerpress-grey">
+							<h2>Sample Post</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, mauris et auctor consequat, est quam suscipit lacus, eu dictum...</p>
+							<p><a class="" href="">Read More</a></p>
 						</div>
+					</div>
+				</div>
 
-						<div id="tabs-2">
-							    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor.</p>
-					
+				<div class="danzerpress-col-2 danzerpress-sm-2 danzerpress-xs-1 danzerpress-flex-row">
+					<div class="danzerpress-col-2 danzerpress-md-1 danzerpress-sm-1 danzerpress-fix danzerpress-lineheight-fix">
+						<img style="height: 100%;width: 100%;object-fit: cover;" src="https://unsplash.it/1920/1079/?random">
+					</div>
+					<div class="danzerpress-col-2 danzerpress-md-1 danzerpress-sm-1 danzerpress-flex-column danzerpress-fix">
+						<div class="danzerpress-box danzerpress-grey">
+							<h2>Sample Post</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, mauris et auctor consequat, est quam suscipit lacus, eu dictum...</p>
+							<p><a class="" href="">Read More</a></p>
 						</div>
+					</div>
+				</div>
 
-						<div id="tabs-3">
-							    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.</p><p> Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<div class="danzerpress-section danzerpress-odd danzerpress-slick-carousel" id="" style="">
+	<div class="danzerpress-wrap">
+		<h2 class="danzerpress-title" style="margin-bottom: 40px;">Slick Caroseul</h2>
+		<div class="danzerpress-flex-row">
+			<div class="danzerpress-two-thirds danzerpress-col-center" style="">
+
+				<?php 
+					$array = array(
+						'https://unsplash.it/1920/1080/?random',
+						'https://unsplash.it/1920/1079/?random',
+						'https://unsplash.it/800/500/?random',
+						'https://unsplash.it/1920/1077/?random',
+						'https://unsplash.it/1920/1076/?random',
+						'https://unsplash.it/1920/1075/?random',
+					);
+				?>
+
+				<div class="slider-for" style="margin-bottom: 20px;">
+
+					<?php 
+
+					foreach ($array as $value) {
+						echo 
+						'
+						<div class="danzerpress-col-1 danzerpress-fix">
+							<div class="danzerpress-white danzerpress-shadow-3 danzerpress-rectangle">
+								<img class="danzerpress-ab-items" src="' . $value . '">
+							</div>
 						</div>
+						';
+					}
 
-					</div><!--End tabs container-->
-					
-				</div><!--End tabs-->
+					?>
+				</div>
+
+				<div class="slider-nav">
+
+					<?php 
+
+					foreach ($array as $value) {
+						echo 
+						'
+						<div class="danzerpress-col-3">
+							<div class="danzerpress-white danzerpress-shadow-3 danzerpress-rectangle">
+								<img class="danzerpress-ab-items" src="' . $value . '">
+							</div>
+						</div>
+						';
+					}
+
+					?>
+				</div>
 
 			</div>
 		</div>
